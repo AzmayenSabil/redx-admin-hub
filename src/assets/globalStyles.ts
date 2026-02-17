@@ -1,0 +1,14 @@
+import { css } from '@emotion/react';
+
+export const globalStyles = css`
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #f5f5f5;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+`;
